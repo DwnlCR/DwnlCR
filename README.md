@@ -7,12 +7,10 @@ Atualmente estudando para construir APIs robustas e bem testadas.
 
 ## Sobre mim
 
-- 🎯 Foco em **Backend com Java**
-- 🎓 Graduando em **Engenharia de Software** pela UFC
-- 📜 Técnico em **Informática pelo IFPI**
-- 📚 Estudando **Spring Boot**, **JUnit**, **Maven/Gradle** e **Banco de Dados**
-- 🏗️ Aplicando boas práticas de **OOP**, **Design Patterns** e **Clean Code**
-- 🌱 Sempre aprendendo e evoluindo
+- Foco em **Backend com Java**
+- Graduando em **Engenharia de Software** pela UFC
+- Técnico em **Informática pelo IFPI**
+- Estudando **Spring Boot**, **JUnit**, **Maven/Gradle** e **Banco de Dados**
 
 ---
 
