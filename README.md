@@ -7,16 +7,14 @@ Atualmente estudando para construir APIs robustas e bem testadas.
 
 ## Sobre mim
 
-- 🎯 Foco em **Backend com Java**
-- 🎓 Graduando em **Engenharia de Software** pela UFC
-- 📜 Técnico em **Informática pelo IFPI**
-- 📚 Estudando **Spring Boot**, **JUnit**, **Maven/Gradle** e **Banco de Dados**
-- 🏗️ Aplicando boas práticas de **OOP**, **Design Patterns** e **Clean Code**
-- 🌱 Sempre aprendendo e evoluindo
+- Foco em **Backend com Java**
+- Graduando em **Engenharia de Software** pela UFC
+- Técnico em **Informática pelo IFPI**
+- Estudando **Spring Boot**, **JUnit**, **Maven/Gradle** e **Banco de Dados**
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
+## Tecnologias & Ferramentas
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
@@ -33,15 +31,15 @@ Atualmente estudando para construir APIs robustas e bem testadas.
 
 ---
 
-## 📌 Projetos em Destaque
+## Projetos em Destaque
 
-### 🎮 [Sudoku](https://github.com/DwnlCR/sudoku)
+### [Sudoku](https://github.com/DwnlCR/sudoku)
 
 Jogo de Sudoku desktop desenvolvido em Java com interface gráfica em **Java Swing** e integração com banco de dados via **Spring Boot + JPA + Flyway**. Suporta carregamento aleatório de padrões do banco, progressão sequencial entre puzzles e validação em tempo real.
 
 > Java · Spring Boot · JPA · Flyway · PostgreSQL · Swing · MVC · Observer · Design Patterns
 
-### 📋 [Board - Kanban Task Manager](https://github.com/DwnlCR/board)
+### [Board - Kanban Task Manager](https://github.com/DwnlCR/board)
 
 Aplicação de gerenciamento de tarefas no estilo **Kanban** via terminal. Boards com colunas configuráveis, controle de cards com bloqueios, movimentações e cancelamentos. Acesso ao banco com **JDBC puro**, transações manuais e migrations pelo **Liquibase**.
 
@@ -49,13 +47,6 @@ Aplicação de gerenciamento de tarefas no estilo **Kanban** via terminal. Board
 
 ---
 
-## 📊 Estatísticas
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DwnlCR&show_icons=true&theme=default&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DwnlCR&layout=compact&theme=default&hide_border=true)
-
----
-
-## 📬 Contato
+## Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-coelho-rodrigues-ab598a364)
