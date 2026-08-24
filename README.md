@@ -94,6 +94,6 @@ Sistema Kanban desenvolvido em Java utilizando JDBC puro, controle manual de tra
 
 ## Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Coelho_Rodrigues-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-coelho-rodrigues-ab598a364)
+## Contato
 
-[![GitHub](https://img.shields.io/badge/GitHub-DwnlCR-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DwnlCR)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Rodrigues-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielrodriguesbackend/) [![GitHub](https://img.shields.io/badge/GitHub-DwnlCR-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DwnlCR)
