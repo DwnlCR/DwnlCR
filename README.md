@@ -2,11 +2,11 @@
 
 ### Desenvolvedor Backend Java | Spring Boot | APIs REST
 
-Graduando em **Engenharia de Software pela UFC – Campus Russas** e Técnico em **Informática para Internet pelo IFPI**.
+Graduando em **Engenharia de Software pela UFC - Campus Russas** e Técnico em **Informática para Internet pelo IFPI**.
 
 Desenvolvedor com foco em **Java e ecossistema Spring**, com experiência prática no desenvolvimento de APIs REST, persistência de dados, autenticação e autorização, testes automatizados, Docker, CI/CD e integração entre serviços.
 
-Atualmente participo do **LearningLab**, atuando no desenvolvimento backend do **GestLab**, além de contribuir com atividades de ensino e extensão acadêmica.
+Atualmente participo do **LearningLab/UFC**, atuando no desenvolvimento backend do **GestLab**, uma plataforma de gestão de laboratórios acadêmicos.
 
 Também desenvolvo projetos próprios para aprofundar conhecimentos em **Arquitetura Hexagonal, Domain-Driven Design, sistemas orientados a eventos, concorrência, caching, resiliência, segurança e integração com IA**.
 
@@ -74,35 +74,49 @@ Também desenvolvo projetos próprios para aprofundar conhecimentos em **Arquite
 **Migrations:** Flyway, Liquibase  
 **DevOps:** Docker, Docker Compose, GitHub Actions  
 **Build:** Maven, Gradle  
-**Versionamento:** Git, GitHub, Git Flow, code review  
+**Versionamento:** Git, GitHub, Git Flow, pull requests, code review  
 **Frontend:** React, JavaScript, HTML, CSS  
 **Conhecimentos:** Angular, TypeScript  
 **Arquitetura:** REST, MVC, Arquitetura Hexagonal, Event-Driven, DDD, Design Patterns
 
 ---
 
-## Experiência
+# Experiência
 
-### GestLab — LearningLab / UFC
+## GestLab - LearningLab / UFC
 
-**Desenvolvimento Backend e Extensão Acadêmica**
+**Desenvolvimento Backend e Extensão Acadêmica | 2026 - Atual**
 
-Atuo no desenvolvimento e evolução do backend do **GestLab**, trabalhando com Java, Spring Boot e PostgreSQL em um ambiente colaborativo de desenvolvimento.
+Atuo no desenvolvimento backend do **GestLab**, uma plataforma de gestão de laboratórios acadêmicos desenvolvida pelo LearningLab/UFC.
 
-Principais atividades:
+O sistema centraliza diferentes aspectos da operação de um laboratório, incluindo gestão de workspaces, boards, listas, cards, membros, permissões e notificações.
 
-- Desenvolvimento e manutenção de **APIs REST**
-- Persistência de dados com **Spring Data JPA e PostgreSQL**
-- Implementação de autenticação e autorização com **Spring Security e JWT**
-- Desenvolvimento de testes com **JUnit, Mockito e MockMvc**
-- Manutenção de pipeline **CI/CD com GitHub Actions**
-- Identificação e correção de vulnerabilidades em dependências
-- Gerenciamento de dependências e builds
-- Versionamento com **Git e GitHub**
-- Utilização de **Git Flow**
-- Participação em **code reviews**
-- Colaboração no desenvolvimento e manutenção do sistema
-- Participação em atividades de **ensino e extensão acadêmica**
+### Minhas contribuições
+
+Entre as funcionalidades e melhorias em que trabalhei estão:
+
+- Desenvolvimento do **sistema de notificações de prazos**
+- Implementação de entidade, repositório, serviços e endpoints REST para notificações
+- Implementação de processamento agendado de notificações
+- Desenvolvimento de testes para o sistema de notificações
+- Implementação de **arquivamento e desarquivamento de boards e listas**
+- Desenvolvimento de testes de integração para endpoints de **boards**
+- Desenvolvimento e correção de testes de integração de **autenticação**
+- Correções em autenticação e tratamento de erros
+- Correções de regras de acesso e permissões
+- Correção de controle de acesso na recuperação de labels de boards
+- Manutenção de mappings e relacionamentos JPA
+- Atualização do projeto para **Spring Boot 3.5**
+- Manutenção e evolução de dependências
+- Trabalho colaborativo através de pull requests e code review
+
+### Tecnologias do projeto
+
+O backend utiliza:
+
+`Java 21` · `Spring Boot 3.5` · `Spring Security` · `Spring Data JPA` · `Hibernate` · `PostgreSQL` · `Flyway` · `JWT` · `JUnit` · `Mockito` · `MockMvc` · `Maven` · `Docker` · `Docker Compose`
+
+O projeto também possui documentação da API com **OpenAPI/Swagger** e infraestrutura de CI/CD com **GitHub Actions**.
 
 ---
 
@@ -114,45 +128,51 @@ Principais atividades:
 
 Marketplace para comercialização de **ervas, temperos e produtos agrícolas**, desenvolvido como uma aplicação web completa com backend em **Java/Spring Boot** e frontend em **React**.
 
-Sou responsável principalmente pelo desenvolvimento do backend.
+Atuo principalmente no desenvolvimento do backend.
 
 A aplicação utiliza uma organização baseada em **Domain-Driven Design**, mantendo separação entre domínio, aplicação, infraestrutura e apresentação.
 
 O desenvolvimento atual está concentrado no contexto de **Identity e Authentication**.
 
-### Implementado
+### Identity e Authentication
 
-- Cadastro e autenticação de usuários
+Entre as funcionalidades já implementadas estão:
+
+- Cadastro de usuários
 - Normalização e validação de e-mails
 - Verificação de propriedade do e-mail
-- Autenticação com **JWT**
-- **OAuth2 Resource Server**
+- Hash de senhas com BCrypt
+- Autenticação com JWT
+- OAuth2 Resource Server
+- Autorização baseada em roles
+- Access tokens
 - Refresh tokens opacos
-- Refresh tokens armazenados em **cookies HttpOnly**
-- Sessões de refresh armazenadas no **Redis**
+- Refresh tokens em cookies HttpOnly
+- Sessões armazenadas no Redis
 - Rotação de refresh tokens
 - Consumo atômico de tokens
 - Proteção contra reutilização de refresh tokens
 - Logout e revogação de sessões
 - Recuperação de senha
 - Revogação de sessões após alteração de senha
-- Autorização baseada em roles
-- Proteção **CSRF**
-- Configuração de **CORS**
-- Rate limiting de login
-- Rate limiting de cadastro
-- Cooldowns e limites de tentativas utilizando Redis
-- Tratamento padronizado de erros com **ProblemDetail**
+- Proteção CSRF
+- Configuração de CORS
+- Rate limiting de login por e-mail e IP
+- Rate limiting de cadastro por IP
+- Cooldowns e limites de tentativas
+- Tratamento padronizado de erros com ProblemDetail
 - Envio de e-mails
 - Testes unitários
 - Testes de integração
 - Testes de concorrência
 
-Os testes de integração utilizam **Testcontainers**, inicializando instâncias reais de PostgreSQL e Redis durante a execução dos testes.
+O **Redis** é utilizado para sessões, dados temporários, TTLs e operações que exigem atomicidade.
 
-O ambiente de desenvolvimento utiliza **Docker Compose** para execução da infraestrutura necessária.
+Os testes de integração utilizam **Testcontainers**, executando instâncias reais de PostgreSQL e Redis durante os testes.
 
-**Stack**
+O ambiente de desenvolvimento utiliza **Docker e Docker Compose** para execução da infraestrutura.
+
+### Stack
 
 `Java 21` · `Spring Boot` · `Spring Security` · `Spring Data JPA` · `PostgreSQL` · `Redis` · `Flyway` · `Docker` · `Docker Compose` · `Testcontainers` · `JUnit 5` · `Mockito` · `MockMvc` · `Gradle` · `React`
 
@@ -166,16 +186,17 @@ Marketplace de eventos organizado em bounded contexts de **Registration, Catalog
 
 O projeto é utilizado para explorar problemas encontrados em sistemas backend mais complexos, incluindo:
 
-- Arquitetura orientada a eventos
 - Arquitetura Hexagonal
+- Arquitetura orientada a eventos
 - Separação em bounded contexts
 - Diferentes estratégias de persistência
 - Bancos relacionais e NoSQL
 - Caching com Redis
 - Controle de concorrência
+- Consistência de dados
 - Separação entre domínio e infraestrutura
 
-**Stack**
+### Stack
 
 `Java 21` · `Spring Boot` · `Arquitetura Hexagonal` · `Event-Driven` · `MySQL` · `PostgreSQL` · `MongoDB` · `Redis` · `Docker`
 
@@ -191,13 +212,13 @@ O projeto explora:
 
 - Processamento de comandos financeiros em linguagem natural
 - Integração entre Spring Boot e modelos de IA
-- **Tool Calling**
+- Tool Calling
 - Persistência de informações financeiras
 - Transcrição de áudio
 - Síntese de voz
 - Integração com APIs externas
 
-**Stack**
+### Stack
 
 `Java 21` · `Spring Boot` · `Spring AI` · `OpenAI` · `JPA` · `MySQL` · `Docker`
 
@@ -215,13 +236,13 @@ O projeto trabalha com:
 - Integração com serviços de sanções
 - Políticas de avaliação de risco
 - Comunicação com APIs externas
-- Clientes HTTP com **OpenFeign**
+- Clientes HTTP com OpenFeign
 - Mecanismos de resiliência
-- Tolerância a falhas com **Resilience4j**
+- Tolerância a falhas com Resilience4j
 - Arquitetura Hexagonal
 - Comunicação orientada a eventos
 
-**Stack**
+### Stack
 
 `Java 21` · `Spring Boot` · `OpenFeign` · `Resilience4j` · `Arquitetura Hexagonal` · `Event-Driven`
 
@@ -242,7 +263,7 @@ O projeto explora:
 - Strategy Pattern
 - Persistência com JPA
 
-**Stack**
+### Stack
 
 `Java 21` · `Spring Boot` · `Spring Security` · `JPA` · `MySQL` · `Docker`
 
@@ -262,13 +283,13 @@ Principais conceitos:
 - Migrations com Flyway
 - Interface desktop com Swing
 
-**Stack**
+### Stack
 
 `Java` · `Spring Boot` · `JPA` · `PostgreSQL` · `Flyway` · `Swing`
 
 ---
 
-## [Board — Kanban Task Manager](https://github.com/DwnlCR/board)
+## [Board - Kanban Task Manager](https://github.com/DwnlCR/board)
 
 Sistema Kanban desenvolvido em Java utilizando **JDBC puro**, sem abstração de ORM.
 
@@ -281,13 +302,13 @@ O projeto foi utilizado para trabalhar diretamente com conceitos de persistênci
 - Migrations
 - Organização das operações de persistência
 
-**Stack**
+### Stack
 
 `Java` · `JDBC` · `MySQL` · `Liquibase` · `Gradle`
 
 ---
 
-## Áreas de Interesse
+# Áreas de Interesse
 
 Atualmente busco aprofundar conhecimentos em:
 
@@ -307,19 +328,24 @@ Atualmente busco aprofundar conhecimentos em:
 
 ---
 
-## Formação
+# Formação
 
-**Engenharia de Software**  
-Universidade Federal do Ceará — Campus Russas  
-Cursando
+### Engenharia de Software
 
-**Técnico em Informática para Internet**  
-Instituto Federal do Piauí  
-Concluído
+**Universidade Federal do Ceará - Campus Russas**
+
+Cursando - 4º período  
+Previsão de conclusão: **2029.1**
+
+### Técnico em Informática para Internet
+
+**Instituto Federal do Piauí**
+
+Concluído em **2024.2**
 
 ---
 
-## Contato
+# Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daniel_Rodrigues-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danielrodriguesbackend/)
 
